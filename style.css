@@ -85,7 +85,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 100px;
-  padding: 200px 100px;
+  padding: 200px 6%;
   padding-top: 30px;
   padding-bottom: 0%;
 }
