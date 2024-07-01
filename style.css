@@ -92,7 +92,6 @@ body {
 
 .card {
   display: flex;
-  height: 220px;
   width: 100%;
   background-color: white;
   border-radius: 8px;
