@@ -21,6 +21,16 @@
   </head>
 
   <body>
+    <div id="video-popup" class="video-popup">
+      <div class="video-popup-content">
+        <span class="close">&times;</span>
+        <video id="popup-video" controls style="display: none">
+          <source src="" type="video/mp4" id="video-source" />
+          Your browser does not support the video tag.
+        </video>
+        <img id="popup-image" src="" alt="Popup Image" />
+      </div>
+    </div>
     <header class="header d">
       <h1>Premium Ajwa Dates Direct from Medinah</h1>
     </header>
@@ -193,15 +203,57 @@
       <h2>Harvesting season 1445</h2>
       <p>Our dates come directly from Alalia farms...</p>
       <div class="main-image">
-        <img src="/images/har1.png" alt="Main Harvesting Image" />
+        <img
+          class="pop-up-images"
+          src="/images/har1.png"
+          alt="Main Harvesting Image"
+          data-type="video"
+          data-src="./images/video1.mp4"
+        />
       </div>
       <div class="thumbnail-images">
-        <img src="/images/harf3.png" alt="Thumbnail 1" />
-        <img src="/images/harf3.png" alt="Thumbnail 2" />
-        <img src="images/harf4.png" alt="Thumbnail 3" />
-        <img src="/images/harf5.png" alt="Thumbnail 4" />
-        <img src="/images/harf6.png" alt="Thumbnail 5" />
-        <img src="/images/harf7.png" alt="Thumbnail 6" />
+        <img
+          class="pop-up-images"
+          src="/images/harf3.png"
+          alt="Thumbnail 2"
+          data-type="video"
+          data-src="./images/video2.mp4"
+        />
+        <img
+          class="pop-up-images"
+          src="/images/harf3.png"
+          alt="Thumbnail 1"
+          data-type="video"
+          data-src="./images/video3.mp4"
+        />
+        <img
+          class="pop-up-images"
+          src="images/harf4.png"
+          alt="Thumbnail 3"
+          data-type="image"
+          data-src="./images/img1.jpg"
+        />
+        <img
+          class="pop-up-images"
+          src="/images/harf5.png"
+          alt="Thumbnail 4"
+          data-type="image"
+          data-src="./images/img2.jpg"
+        />
+        <img
+          class="pop-up-images"
+          src="/images/harf6.png"
+          alt="Thumbnail 5"
+          data-type="image"
+          data-src="./images/img3.jpg"
+        />
+        <img
+          class="pop-up-images"
+          src="/images/harf7.png"
+          alt="Thumbnail 6"
+          data-type="video"
+          data-src="./images/video2.mp4"
+        />
       </div>
     </section>
 
