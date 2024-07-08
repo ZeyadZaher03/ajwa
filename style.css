@@ -904,8 +904,8 @@ footer {
     flex-direction: column;
   }
 
-  .testimonial-card {
-    height: 300px;
+  .testimonial-card video {
+    width: 100%;
   }
 
   .quotation-section {
